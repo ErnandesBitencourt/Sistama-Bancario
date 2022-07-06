@@ -1,0 +1,15 @@
+POST http://localhost:3003/users/create
+Content-Type: application/json
+
+{
+    "name":"Ernandes Freitas Bitencourt",
+    "CPF":"369.452.489.78",
+    "dateOfBirthAsString":"22/01/1998"
+}
+
+
+
+###
+
+
+GET  http://localhost:3003/users/all
